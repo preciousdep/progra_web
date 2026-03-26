@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8" lang="es">
+    <head>
+        <title>Taller 1 Astrid Leon</title>
+        <style>
+        .sidebar {
+            background-color: white;
+            padding: 20px;
+            width: 500px;
+            float: right;
+        }
+    </style>
+    </head>
+     <!-- Lo del estilo fue sacado de https://oregoom.com/en/html/aside/ -->
+    <body>
+        <header>
+            <h1><img src="icono.gif" alt="Icono de la página">
+                Página con título interesante </h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href=#cientifico>Científico del día</a>
+                    <ul>
+                        <li><a href= #informacion>Información personal</a></li>
+                        <li><a href=#proyectos>Proyectos</a></li>
+                        <li><a href=#intereses>Intereses</a></li>
+                    </ul>
+                </li>
+                <li><a href=#Novedades>Novedades</a></li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+        <article>
+            <section>
+
+                <aside class="sidebar">
+                    <figure>
+                        <image src="imagen.jpg" width="250" alt="Imagen de Cinnamoroll"></image>
+                        <figcaption>Fig. 1 Foto de perfil de Cinnamoroll</figcaption>
+                    </figure>
+                </aside>
+    
+                <div id="cientifico">
+                    <h1>Científico del día</h1>
+                    <p>Del día: <time datetime="2026-03-23">23 de Marzo del 2025</time></p>
+                    <h1 style="color: cornflowerblue;">
+                        Cinnamon</h1>
+                </div>
+                <div id="informacion">
+                    <h2>Información Personal</h2>
+                    <h3>Nombre completo: Cinnamoroll</h3>
+                    <p>Edad: Chiquito<br>Nacionalidad: Cielo<br>Área de estudio: Neurología y nutrición</p>
+                </div>
+                
+                <div id="intereses">
+                    <h2>Intereses</h2>
+                    <ul>
+                        <li>Acción del sabor dulce en la reacción de recompensa cerebral</li>
+                        <li>Baile y canto como actividad física</li>
+                        <li>Socializar para saciar necesidades emocionales básicas</li>
+                    </ul>
+                </div>
+    
+                <div id="proyectos">
+                    <h2>Proyectos</h2>
+                    <table border>
+                        <tr>
+                            <th>Título</th>
+                            <th>Año de Publicación</th>
+                            <th>Autores Colaboradores</th>
+                        </tr>
+                        <tr>
+                            <td>Felicidad y alimentos azucarados</td>
+                            <td>2016</td>
+                            <td>Espresso, Baby Milk</td>
+                        </tr>
+                        <tr>
+                            <td>¿Cómo volar con tus orejas?</td>
+                            <td>2010</td>
+                            <td>Pompompurin</td>
+                        </tr>
+                        <tr>
+                            <td>Canela y energía en el organismo, relación directa</td>
+                            <td>2025</td>
+                            <td>LovelyMocha, Lloromannic</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+
+            <section>
+                <div id="Novedades">
+                    <h1>Novedades</h1>
+                    <div>
+                        <h4><mark>Glóbulo blanco vs Bacteria</mark></h4>
+                        <p>Recientemente ha sido captado en camara el encuentro entre un glóbulo
+                        blanco y una bacteria. <br> Genuinamente conmovedor, es un momento lleno
+                        de emociones, pero para los que apoyan al <br>glóbulo blanco, esto es
+                        otra victoria para su ídolo. Una pena para los bacteriafans.
+                        </p>
+                        <figure>
+                            <video controls>
+                                <source src="video.mp4" type="video/mp4"> 
+                            </video>
+                        </figure>
+                    </div>
+                    <div>
+                        <h4><mark>¿Insectos palo?</mark></h4>
+                        <p>En estas últimas semanas, hemos recibido numerosos reportes de hallazgos de insectos palo
+                            por seguidores,<br> nos aseguran que esto puede significar un nuevo órden dentro
+                            del sistema local de insectos. También recibimos<br> información de que cada avistamiento viene
+                            acompañado por el siguiente sonido:
+                        </p>
+                        <figure>
+                            <audio controls>
+                                <source src="stickbug.mp3" type="audio/mp3">
+                            </audio>
+                        </figure>
+                        <p>¿Será esto una señal? <b>¿Buscan dominar el mundo?</b> Veamos lo que dicen las encuestas...</p>
+                        <div>
+                            <h4>Votos para: ¿Has visto un insecto palo en los últimos 3 días?</h4>
+                            <meter value="0.7"></meter>
+                            <label>70% Votaron "Sí"</label>
+                        </div>
+                        <div>
+                            <h4>Votos para: ¿Te suena familiar el sonido afiliado a la aparición de los insectos palo?</h4>
+                            <meter value="0.82"></meter>
+                            <label>82% Votaron "Sí"</label>
+                        </div>
+                        <p>Esperamos que la información que les traemos sea de utilidad para su bienestar, uno nunca sabe...</p>
+
+
+                    </div>
+                </div>
+
+            </section>
+
+        </article>
+        
+
+    </body>
+</html>
